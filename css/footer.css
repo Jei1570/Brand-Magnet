@@ -1,0 +1,13 @@
+
+footer {
+  width: 100%;
+  background-color: var(--dark-gray-color);
+}
+
+.footer.container {
+  max-width: 1170px;
+  padding: 2.75rem 0;
+  display: flex;
+  column-gap: 3rem;
+  color: var(--gray-color);
+}

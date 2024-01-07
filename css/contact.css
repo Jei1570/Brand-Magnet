@@ -1,0 +1,108 @@
+.contact {
+  width: 100%;
+  margin:7.5rem auto 0;
+  background-color: var(--secondary-light-color-02);
+  padding: 3.5rem 0;
+}
+
+.contact .main_copy {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.contact_bottom_section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.contact_box {
+  width: 80%;
+  margin: 3rem auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 2.5rem;
+}
+
+.form_container {
+  flex-basis: 60%;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.company_info {
+  flex-basis: 40%;
+  padding: 3rem;
+  background-color: var(--secondary-light-color);
+  border-radius: 3px;
+}
+
+.input_row {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+
+.input_row.input_name {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1.25rem;
+}
+
+.input_row.input_name .input_group {
+  flex-basis: 100%;
+}
+
+input {
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid var(--secondary-light-color);
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--secondary-light-color);
+  outline: none;
+  padding-bottom: 5px;
+  resize: none;
+}
+
+::placeholder {
+  color: var(--light-gray-01);
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+input:focus::-webkit-input-placeholder { 
+  color:transparent; 
+}
+
+input:focus:-ms-input-placeholder { 
+  color:transparent; 
+}
+
+.contact button {
+ cursor: pointer;
+ margin-top: 1rem;
+}
+
+.contact label {
+  font-size: 0.875rem;
+  color: var(--secondary-color)
+}
+
+.company_info_list > div {
+  margin-top: 2rem;
+}
+

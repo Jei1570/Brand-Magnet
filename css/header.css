@@ -1,0 +1,47 @@
+@import url(../css/style.css);
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 1.55rem 0;
+  background-color: var(--dark-gray-color); 
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_color {
+  /* font-style: italic; */
+  color: var(--primary-color);
+}
+
+/* .main-menu li a.active {
+  color: var(--secondary-color);
+} */
+
+.top_menu_list {
+  display: flex;
+  width: 80%;
+  justify-content: end;
+  gap: 60px;
+}
+
+.main-menu li {
+ font-size: 1rem;
+  display: inline-block;
+  margin-right: 29px;
+  text-transform: capitalize;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
